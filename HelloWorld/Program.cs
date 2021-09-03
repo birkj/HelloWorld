@@ -14,7 +14,6 @@ namespace HelloWorld
 
 
         }
-
         public string getUserPromt(int year) {
             if(isLeapYear(year) == true) {
                 return "yay";
