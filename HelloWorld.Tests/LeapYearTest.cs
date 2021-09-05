@@ -5,8 +5,6 @@ namespace HelloWorld.Tests
 {
     public class LeapYearTest
     {
-<<<<<<< HEAD
-=======
 
         [Fact]
         public void userGetsNayPrompted() 
@@ -24,7 +22,6 @@ namespace HelloWorld.Tests
             Assert.Equal("yay", res);
         }
 
->>>>>>> UserInterFace
         [Fact]
         public void DivisibleByFour1700()
         {
