@@ -5,6 +5,26 @@ namespace HelloWorld.Tests
 {
     public class LeapYearTest
     {
+<<<<<<< HEAD
+=======
+
+        [Fact]
+        public void userGetsNayPrompted() 
+        {
+            var p = new Program();
+            var res =  p.getUserPromt(1700);
+            Assert.Equal("nay", res);
+        }
+
+         [Fact]
+        public void userGetsYayPrompted() 
+        {
+            var p = new Program();
+            var res =  p.getUserPromt(1600);
+            Assert.Equal("yay", res);
+        }
+
+>>>>>>> UserInterFace
         [Fact]
         public void DivisibleByFour1700()
         {
